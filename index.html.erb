@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Opal Application</title>
+
     <%= javascript_include_tag 'application' %>
+
+    <%= OpalIrbUtils.include_opal_irb_jqconsole_requirements %>
+
   </head>
   <body>
+    <button class="btn" id="show_console">Show Console</button>
   </body>
 </html>
 
