@@ -3,16 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Opal Application</title>
-
     <%= javascript_include_tag 'application' %>
-
     <%= OpalIrbUtils.include_opal_irb_jqconsole_requirements %>
-
   </head>
   <body>
 
+    <h1 style="font-family:sans-serif">Opal Application</h1>
+
     <div>
-      <button class="btn" id="show_console">Show Console</button>
+      <button class="btn" id="click-me">Click me</button>
+      <h2 id="easy" style="font-family:sans-serif;display:none">Easy as...</h2>
+    </div>
+
+    <div>
+      <button class="btn" id="ruby-console">Ruby Console</button>
     </div>
 
   </body>
