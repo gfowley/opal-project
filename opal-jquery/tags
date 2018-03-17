@@ -1,0 +1,115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+==	lib/opal/jquery/element.rb	/^  def ==(other)$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s.on.one.off
+Browser	lib/opal/jquery/document.rb	/^module Browser$/;"	m
+Browser	lib/opal/jquery/local_storage.rb	/^module Browser$/;"	m
+Browser	lib/opal/jquery/rspec.rb	/^module Browser$/;"	m
+Browser	lib/opal/jquery/window.rb	/^module Browser$/;"	m
+DocumentMethods	lib/opal/jquery/document.rb	/^  module DocumentMethods$/;"	m	class:Browser
+Element	lib/opal/jquery/element.rb	/^class Element < `#{JQUERY_CLASS.to_n}`$/;"	c
+Event	lib/opal/jquery/event.rb	/^class Event$/;"	c
+HTTP	lib/opal/jquery/http.rb	/^class HTTP$/;"	c
+JQuery	lib/opal/jquery/version.rb	/^  module JQuery$/;"	m	class:Opal
+Kernel	lib/opal/jquery/kernel.rb	/^module Kernel$/;"	m
+LocalStorage	lib/opal/jquery/local_storage.rb	/^  class LocalStorage$/;"	c	class:Browser
+Opal	lib/opal/jquery/version.rb	/^module Opal$/;"	m
+RSpecHelpers	lib/opal/jquery/rspec.rb	/^  module RSpecHelpers$/;"	m	class:Browser
+Window	lib/opal/jquery/window.rb	/^  class Window$/;"	c	class:Browser
+[]	lib/opal/jquery/element.rb	/^  def [](name)$/;"	f	class:Element.id
+[]	lib/opal/jquery/element.rb	/^  def self.[](selector)$/;"	F	class:Element
+[]	lib/opal/jquery/event.rb	/^  def [](name)$/;"	f	class:Event
+[]	lib/opal/jquery/local_storage.rb	/^    def [](key)$/;"	f	class:Browser.LocalStorage
+[]=	lib/opal/jquery/element.rb	/^  def []=(name, value)$/;"	f	class:Element.id.[]
+[]=	lib/opal/jquery/local_storage.rb	/^    def []=(key, value)$/;"	f	class:Browser.LocalStorage
+alert	lib/opal/jquery/kernel.rb	/^  def alert(msg)$/;"	f	class:Kernel
+alt_key	lib/opal/jquery/event.rb	/^  def alt_key$/;"	f	class:Event
+animate	lib/opal/jquery/element.rb	/^  def animate(params, &block)$/;"	f	class:Element.id.[].attr.at.class_name=
+any?	lib/opal/jquery/element.rb	/^  def any?$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s
+append_to_body	lib/opal/jquery/element.rb	/^  def append_to_body$/;"	f	class:Element.id.[].attr
+append_to_head	lib/opal/jquery/element.rb	/^  def append_to_head$/;"	f	class:Element.id.[].attr
+at	lib/opal/jquery/element.rb	/^  def at(index)$/;"	f	class:Element.id.[].attr
+attr	lib/opal/jquery/element.rb	/^  def attr(*args)$/;"	f	class:Element.id.[]
+body	lib/opal/jquery/document.rb	/^    def body$/;"	f	class:Browser.DocumentMethods
+class_name	lib/opal/jquery/element.rb	/^  def class_name$/;"	f	class:Element.id.[].attr.at
+class_name=	lib/opal/jquery/element.rb	/^  def class_name=(name)$/;"	f	class:Element.id.[].attr.at
+clear	lib/opal/jquery/local_storage.rb	/^    def clear$/;"	f	class:Browser.LocalStorage
+css	lib/opal/jquery/element.rb	/^  def css(name, value=nil)$/;"	f	class:Element.id.[].attr.at.class_name=
+ctrl_key	lib/opal/jquery/event.rb	/^  def ctrl_key$/;"	f	class:Event
+data	lib/opal/jquery/element.rb	/^  def data(*args)$/;"	f	class:Element.id.[].attr.at.class_name=
+delete	lib/opal/jquery/local_storage.rb	/^    def delete(key)$/;"	f	class:Browser.LocalStorage
+each	lib/opal/jquery/element.rb	/^  def each$/;"	f	class:Element.id.[].attr.at.class_name=.data
+effect	lib/opal/jquery/element.rb	/^  def effect(name, *args, &block)$/;"	f	class:Element.id.[].attr.at.class_name=.data
+element	lib/opal/jquery/event.rb	/^  def element$/;"	f	class:Event
+element	lib/opal/jquery/window.rb	/^    def element$/;"	f	class:Browser.Window
+empty?	lib/opal/jquery/element.rb	/^  def empty?$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s
+expose	lib/opal/jquery/element.rb	/^  def self.expose(*methods)$/;"	F	class:Element.id
+fail	lib/opal/jquery/http.rb	/^  def fail(xhr, status, error)$/;"	f	class:HTTP.send.succeed
+find	lib/opal/jquery/element.rb	/^  def self.find(selector)$/;"	F	class:Element
+first	lib/opal/jquery/element.rb	/^  def first$/;"	f	class:Element.id.[].attr.at.class_name=.data
+get_header	lib/opal/jquery/http.rb	/^  def get_header(key)$/;"	f	class:HTTP.send
+has_attribute?	lib/opal/jquery/element.rb	/^  def has_attribute?(name)$/;"	f	class:Element.id.[].attr
+head	lib/opal/jquery/document.rb	/^    def head$/;"	f	class:Browser.DocumentMethods
+height	lib/opal/jquery/element.rb	/^  def height$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s.on.one.off
+html	lib/opal/jquery/element.rb	/^  def html(content = undefined)$/;"	f	class:Element.id.[].attr.at.class_name=.data
+html	lib/opal/jquery/rspec.rb	/^    def html(html_string='')$/;"	f	class:Browser.RSpecHelpers
+id	lib/opal/jquery/element.rb	/^  def id$/;"	f	class:Element.id.[].attr.at.class_name=.data.html
+id	lib/opal/jquery/element.rb	/^  def self.id(id)$/;"	F	class:Element
+id=	lib/opal/jquery/element.rb	/^  def id=(id)$/;"	f	class:Element.id.[].attr.at.class_name=.data.html
+initialize	lib/opal/jquery/event.rb	/^  def initialize(native)$/;"	f	class:Event
+initialize	lib/opal/jquery/http.rb	/^  def initialize$/;"	f	class:HTTP
+initialize	lib/opal/jquery/local_storage.rb	/^    def initialize(storage)$/;"	f	class:Browser.LocalStorage
+inspect	lib/opal/jquery/element.rb	/^  def inspect$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=
+inspect	lib/opal/jquery/http.rb	/^  def inspect$/;"	f	class:HTTP.send
+json	lib/opal/jquery/http.rb	/^  def json$/;"	f	class:HTTP.send
+key_code	lib/opal/jquery/event.rb	/^  def key_code$/;"	f	class:Event
+kill	lib/opal/jquery/event.rb	/^  def kill$/;"	f	class:Event
+length	lib/opal/jquery/element.rb	/^  def length$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s
+meta_key	lib/opal/jquery/event.rb	/^  def meta_key$/;"	f	class:Event
+method_missing	lib/opal/jquery/element.rb	/^  def method_missing(name, *args, &block)$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s.on.one.off.respond_to_missing?
+new	lib/opal/jquery/element.rb	/^  def self.new(tag = 'div')$/;"	F	class:Element.id
+off	lib/opal/jquery/element.rb	/^  def off(name, sel, block = nil)$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s.on.one
+off	lib/opal/jquery/window.rb	/^    def off(*args, &block)$/;"	f	class:Browser.Window
+offset	lib/opal/jquery/element.rb	/^  def offset$/;"	f	class:Element.id.[].attr.at.class_name=.data
+ok?	lib/opal/jquery/http.rb	/^  def ok?$/;"	f	class:HTTP.send
+on	lib/opal/jquery/element.rb	/^  def on(name, sel = nil, &block)$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s
+on	lib/opal/jquery/window.rb	/^    def on(*args, &block)$/;"	f	class:Browser.Window
+one	lib/opal/jquery/element.rb	/^  def one(name, sel = nil, &block)$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s.on
+page_x	lib/opal/jquery/event.rb	/^  def page_x$/;"	f	class:Event
+page_y	lib/opal/jquery/event.rb	/^  def page_y$/;"	f	class:Event
+parse	lib/opal/jquery/element.rb	/^  def self.parse(str)$/;"	F	class:Element.id
+position	lib/opal/jquery/element.rb	/^  def position$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s.on.one.off
+prevent	lib/opal/jquery/event.rb	/^  def prevent$/;"	f	class:Event
+prevented?	lib/opal/jquery/event.rb	/^  def prevented?$/;"	f	class:Event
+promise	lib/opal/jquery/http.rb	/^  def promise$/;"	f	class:HTTP.send
+prop	lib/opal/jquery/element.rb	/^  def prop(*args)$/;"	f	class:Element.id
+ready	lib/opal/jquery/document.rb	/^    def ready$/;"	f	class:Browser.DocumentMethods
+ready?	lib/opal/jquery/document.rb	/^    def ready?(&block)$/;"	f	class:Browser.DocumentMethods
+respond_to_missing?	lib/opal/jquery/element.rb	/^  def respond_to_missing?(name, _)$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s.on.one.off
+send	lib/opal/jquery/http.rb	/^  def send(method, url, options, block)$/;"	f	class:HTTP
+serialize_array	lib/opal/jquery/element.rb	/^  def serialize_array$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s.on.one.off
+setup	lib/opal/jquery/http.rb	/^  def self.setup$/;"	F	class:HTTP
+setup	lib/opal/jquery/http.rb	/^  def self.setup= settings$/;"	F	class:HTTP
+shift_key	lib/opal/jquery/event.rb	/^  def shift_key$/;"	f	class:Event
+stop	lib/opal/jquery/event.rb	/^  def stop$/;"	f	class:Event
+stop_immediate	lib/opal/jquery/event.rb	/^  def stop_immediate$/;"	f	class:Event
+stopped?	lib/opal/jquery/event.rb	/^  def stopped?$/;"	f	class:Event
+succeed	lib/opal/jquery/http.rb	/^  def succeed(data, status, xhr)$/;"	f	class:HTTP.send
+tag_name	lib/opal/jquery/element.rb	/^  def tag_name$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=
+target	lib/opal/jquery/event.rb	/^  def target$/;"	f	class:Event
+title	lib/opal/jquery/document.rb	/^    def title$/;"	f	class:Browser.DocumentMethods
+title=	lib/opal/jquery/document.rb	/^    def title=(title)$/;"	f	class:Browser.DocumentMethods
+to_n	lib/opal/jquery/element.rb	/^  def to_n$/;"	f	class:Element.id
+to_n	lib/opal/jquery/event.rb	/^  def to_n$/;"	f	class:Event
+to_s	lib/opal/jquery/element.rb	/^  def to_s$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect
+touch_x	lib/opal/jquery/event.rb	/^  def touch_x$/;"	f	class:Event
+touch_y	lib/opal/jquery/event.rb	/^  def touch_y$/;"	f	class:Event
+trigger	lib/opal/jquery/window.rb	/^    def trigger(*args)$/;"	f	class:Browser.Window
+type	lib/opal/jquery/event.rb	/^  def type$/;"	f	class:Event
+value	lib/opal/jquery/element.rb	/^  def value$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s.on.one.off
+visible?	lib/opal/jquery/element.rb	/^  def visible?$/;"	f	class:Element.id.[].attr.at.class_name=.data
+which	lib/opal/jquery/event.rb	/^  def which$/;"	f	class:Event
+width	lib/opal/jquery/element.rb	/^  def width$/;"	f	class:Element.id.[].attr.at.class_name=.data.html.id=.inspect.to_s.on.one.off
